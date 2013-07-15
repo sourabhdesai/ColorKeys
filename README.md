@@ -10,7 +10,7 @@ It allows you to dynamically change the color of specific keywords in an EditTex
 
 <img src="http://i.imgur.com/Zrmz6Yw.png" alt="Screenshot" />
 
-**(Demo coming soon!)**
+<object width="560" height="315"><param name="movie" value="//www.youtube.com/v/Nil7plWDiXs?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/Nil7plWDiXs?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 What use is it?
 -----------------------------------------------------------------------------------------------------------------------
