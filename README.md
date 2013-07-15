@@ -36,12 +36,13 @@ Its made for programmers, by a programmer! You can check out the main activity i
   
   And thats it!
 
-Whats the easiest way to use it?
+Whats the easiest way to implement it?
 ------------------------------------------------------------------------------------------------------------------------
 The only files you really need out of here are the following:
   - **EditTextHighlighter.java**  
   - **SettingsDatabase.java**  
   - **StringPhoneLattice.java**  
+
 The easiest thing to do is just copy these three files into your project. After that you should be up and running!  
 (Dont forget to change the `package` declarations!)  
 
