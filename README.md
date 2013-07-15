@@ -7,6 +7,7 @@ This is a demo app of a couple classes I created to make Keyword coloring in And
 What does it do?
 -----------------------------------------------------------------------------------------------------------------------
 It allows you to dynamically change the color of specific keywords in an EditTexts to one that is specified.  
+And with no lag!
 
 [**Click here for a video of the demo app**](http://youtu.be/Nil7plWDiXs)  
 
