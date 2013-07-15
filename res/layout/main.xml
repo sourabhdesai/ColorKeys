@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:id="@+id/background_rellayout_main">
+        <TextView
+                android:layout_width="54dp"
+                android:layout_height="47dp"
+                android:id="@+id/textView" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true" android:text="Enter Text Below"
+                android:gravity="center_vertical|center_horizontal" android:textColor="#ffffff"
+                android:textSize="25dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Text"
+                android:id="@+id/entertext_editText_main" android:layout_centerHorizontal="true" android:layout_below="@+id/textView"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:id="@+id/textView1" android:layout_centerHorizontal="true"
+                android:layout_below="@+id/entertext_editText_main" android:layout_alignRight="@+id/textView"
+                android:layout_alignLeft="@+id/textView"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:text="Add Words Below"
+                android:id="@+id/textView2" android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView1" android:layout_alignRight="@+id/textView"
+                android:layout_alignLeft="@+id/textView" android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffffff" android:textSize="25dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addword_editText_main" android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView2" android:text="Add Word"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:id="@+id/add_button_main"
+                android:layout_alignRight="@+id/textView" android:layout_below="@+id/addword_editText_main"
+                android:layout_alignLeft="@+id/textView"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="42dp" android:id="@+id/textView3"
+                  android:layout_centerHorizontal="true" android:layout_below="@+id/add_button_main"
+                  android:layout_alignRight="@+id/textView" android:layout_alignLeft="@+id/textView"
+                  android:text="Set RGB Color " android:textColor="#ffffff" android:textSize="25dp"
+                  android:gravity="center_vertical|center_horizontal"/>
+        <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/R_editext_main" android:layout_alignLeft="@+id/textView"
+                android:layout_below="@+id/textView3" android:inputType="number" android:text="0"/>
+        <EditText android:layout_width="70dp" android:layout_height="wrap_content" android:id="@+id/G_editext_main"
+                  android:layout_centerHorizontal="true" android:layout_alignBottom="@+id/R_editext_main"
+                  android:inputType="number" android:text="0"/>
+        <EditText android:layout_width="70dp" android:layout_height="wrap_content" android:id="@+id/B_editext_main"
+                  android:layout_alignRight="@+id/textView" android:layout_below="@+id/textView3"
+                  android:inputType="number" android:text="0"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Color"
+                android:id="@+id/setcolor_button_main" android:layout_alignRight="@+id/textView"
+                android:layout_below="@+id/R_editext_main" android:layout_alignLeft="@+id/textView"/>
+    </RelativeLayout>
+</LinearLayout>
+
