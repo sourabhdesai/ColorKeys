@@ -48,5 +48,4 @@ The easiest thing to do is just copy these three files into your project. After 
 
 Caveats!
 ------------------------------------------------------------------------------------------------------------------------
--Any keywords added to the `highlighter` EditTextHighlighter object after `highlighter.addSettingsToEditText(EditText editText)` has been called will not be reflected on the `editText` unless `addSettingsToEditText` is called again.  
 -The current implementation uses a String Phone Lattice data structure to store the words. This data structure takes more time to add words to its dataset relative to a String array. However it truly shines when querying its dataset to see if a String exists in it. Wanna know more? [Click Here!](https://github.com/sourabhdesai/StringPhoneLattice)  
