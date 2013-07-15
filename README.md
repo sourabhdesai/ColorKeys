@@ -8,6 +8,8 @@ What does it do?
 -----------------------------------------------------------------------------------------------------------------------
 It allows you to dynamically change the color of specific keywords in an EditTexts to one that is specified.  
 
+<img src="http://i.imgur.com/Zrmz6Yw.png" alt="Screenshot" />
+
 **(Demo coming soon!)**
 
 What use is it?
