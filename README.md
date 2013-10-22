@@ -37,7 +37,7 @@ Its made for programmers, by a programmer! You can check out the main activity i
   
   And thats it!
 
-Whats the easiest way to implement it?
+Whats the easiest way to import it?
 ------------------------------------------------------------------------------------------------------------------------
 The only files you really need out of here are the following:
   - **EditTextHighlighter.java**  
